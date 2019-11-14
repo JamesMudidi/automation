@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-path = os.getenv("FILEPATH")
 username = os.getenv("USERNAME")
 password = os.getenv("PASSWORD")
+path = os.getenv("FILEPATH")
 
 def create():
     folderName = str(sys.argv[1])
