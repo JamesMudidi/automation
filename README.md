@@ -1,0 +1,1 @@
+Automate the creating process of a Github repository
